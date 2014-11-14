@@ -33,7 +33,7 @@ when 'debian'
   dev_pkgs << 'libcurl4-openssl-dev'
   dev_pkgs << value_for_platform(
     'debian' => {
-      '7.5' => 'libmozjs185-dev',
+      '7.7' => 'libmozjs185-dev',
       'default' => 'libmozjs-dev'
     },
     'ubuntu' => {
